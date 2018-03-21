@@ -59,7 +59,6 @@ app.layout = html.Div(children=[
                 {'x': dates_bins[:-1], 'y': createdQ_daily_histogram[0], 'type': 'bar', 'name': 'Incoming queries'},
                 {'x': dates_bins[:-1], 'y': resolvedQ_daily_histogram[0], 'type': 'bar', 'name': 'Resolved queries'},
                 {'x': dates_bins[:-1], 'y': unresolved_queries_daily, 'type': 'line', 'name': 'Unresolved queries'},
-                #{'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
             ],
             'layout': {
                 'title': 'Created, resolved and unresolved queries (daily)',
@@ -79,7 +78,6 @@ app.layout = html.Div(children=[
                 {'x': weeks_bins[:-1], 'y': createdQ_weekly_histogram[0], 'type': 'bar', 'name': 'Incoming queries'},
                 {'x': weeks_bins[:-1], 'y': resolvedQ_weekly_histogram[0], 'type': 'bar', 'name': 'Resolved queries'},
                 {'x': weeks_bins[:-1], 'y': unresolved_queries_weekly, 'type': 'line', 'name': 'Unresolved queries'},
-                #{'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
             ],
             'layout': {
                 'title': 'Created, resolved and unresolved queries (weekly)',
